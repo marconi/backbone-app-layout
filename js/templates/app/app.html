@@ -1,0 +1,10 @@
+<div id="add-contact">
+  <a href="#" class="add">{{$ "Add Contact" }}</a>
+  {{#if contacts}}
+  <ul class="contacts">
+    {{#each contacts}}
+      <li>{{ this.name }}</li>
+    {{/each}}
+  </ul>
+  {{/if}}
+</div>

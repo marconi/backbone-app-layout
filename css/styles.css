@@ -1,0 +1,10 @@
+.hidden {
+  display: none;
+}
+
+#add-contact form {
+  margin-top: 10px;
+}
+#add-contact label {
+  display: block;
+}
