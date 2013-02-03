@@ -12,4 +12,6 @@ Features
 Building
 --------
 
-    node js/r.js -o js/app/app.build.js 
+.. code:: bash
+
+    node js/r.js -o js/app/app.build.js
